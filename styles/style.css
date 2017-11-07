@@ -1,0 +1,17 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex: row wrap;
+  width: 100%;
+}
+
+.main h1 h3 {
+  text-align: right;
+}
+
+.projects h2 {
+  color: #7d97ad;
+}
