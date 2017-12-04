@@ -1,17 +1,67 @@
-body {
+.container {
   font-family: "Open Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container {
-  display: flex;
-  flex: row wrap;
+img {
   width: 100%;
 }
 
-.main h1 h3 {
+.topopage {
   text-align: right;
+  padding-left: 2%;
 }
 
-.projects h2 {
+.topopage .svgimage {
+  float: left;
+  width: 10%;
+}
+
+hr {
+  margin-bottom: 1em;
   color: #7d97ad;
+  width: 90%;
+  size: 3px;
+  align: center;
+
+}
+
+.container h2 {
+  color: #7d97ad;
+}
+
+.project {
+  text-align: center;
+}
+
+.smallscreen {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+  .largescreen {
+    display: none;
+  }
+
+  .smallscreen {
+    display: inline;
+  }
+
+  .project {
+    width: 100%;
+  }
+}
+
+@media screen and ( min-width: 800px) {
+
+  .project {
+    width: 30%;
+    margin: 10px;
+  }
+
 }
