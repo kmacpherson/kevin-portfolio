@@ -1,6 +1,6 @@
 .container {
   font-family: "Open Sans Condensed", sans-serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   display: flex;
@@ -14,9 +14,10 @@ img {
 .topopage {
   text-align: right;
   padding-left: 2%;
+  flex: row wrap;
 }
 
-.topopage .svgimage {
+.svgimage {
   float: left;
   width: 10%;
 }
@@ -30,7 +31,7 @@ hr {
 
 }
 
-.container h2 {
+h2 {
   color: #7d97ad;
 }
 
@@ -38,23 +39,12 @@ hr {
   text-align: center;
 }
 
-.smallscreen {
-  display: none;
-}
-
 @media screen and (max-width: 800px) {
-
-  .largescreen {
-    display: none;
-  }
-
-  .smallscreen {
-    display: inline;
-  }
 
   .project {
     width: 100%;
   }
+
 }
 
 @media screen and ( min-width: 800px) {

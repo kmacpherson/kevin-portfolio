@@ -16,21 +16,26 @@
       </header>
       <hr>
       <div class="midpage">
-        <img class="largescreen" src="images/code1280.jpg" alt="Code">
-        <img class="smallscreen" src="images/code640.jpg" alt="Code">
+        <img srcset="images/code-640.jpg 480w,
+                     images/code1280.jpg 800w"
+             sizes="(max-width: 480px) 480px, 800px"
+             src="images/code1280.jpg" alt="code">
         <h2>Featured Work</h2>
       </div>
       <div class="project" id="phone">
         <img src="images/iphone640.jpg" alt="Phone">
         <h3>Appify</h3>
+        <p>https://github.com/udacity/Appify/<p>
       </div>
       <div class="project" id="sunflower">
         <img src="images/sunflower640.jpg" alt="Sunflower">
         <h3>Sunflower</h3>
+        <p>https://github.com/udacity/Sunflower/<p>
       </div>
       <div class="project" id="bokeh">
         <img src="images/light640.jpg" alt="Light">
         <h3>Bokeh</h3>
+        <p>https://github.com/udacity/Bokeh/<p>
       </div>
     </div>
   </body>
